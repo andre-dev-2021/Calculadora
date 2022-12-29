@@ -15,7 +15,7 @@ Projeto de Calculadora simples em HTML, CSS e Javascript.
 
 ## Screenshots
 
-![Tela](Screenshot.png)
+![Tela](screenshot.png)
 
 
 

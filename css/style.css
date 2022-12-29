@@ -1,24 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+    overflow: hidden;
 }
 
 .fundo{
-    background-image: linear-gradient(125deg, rgb(44, 229, 3), rgb(252, 252, 70));
-    height: 100vh;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    font-family: 'Bebas Neue';
 }
 
 .calculadora{
-    position: absolute;
-    background-color: rgba(21, 75, 193, 0.8);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     border-radius: 15px;
-    border: 10px solid black;
+    border: 5px solid rgb(246, 246, 246);
     padding: 15px;
 }
 
@@ -26,78 +24,40 @@
     width: 50px;
     height: 50px;
     font-size: 25px;
+    font-weight: bold;
     cursor: pointer;
     margin: 3px;
-    background-color: rgb(241, 235, 222);
+    background-color: transparent;
     border: 2px solid;
     border-radius: 5px;
-    color: black;
+    color: rgb(246, 246, 246);
 }
 
-.clnBotao{
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    cursor: pointer;
-    margin: 3px;
-    background-color: rgb(224, 35, 29);
-    border: 2px solid black;
-    border-radius: 5px;
-    color: white;
-}
-
-
-.clnBotao:hover{
-    background-color: rgb(189, 24, 27);
-}
-
-
-.backBotao{
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    cursor: pointer;
-    margin: 3px;
-    background-color: rgb(252, 252, 70);
-    border: 2px solid black;
-    border-radius: 5px;
-    color: white;
-}
-
-.backBotao:hover{
-    background-color: rgb(241, 241, 63);
-}
-
-.botao:hover{
-    background-color: rgb(206, 202, 191);
+button:hover{
+    background-color: rgb(246, 246, 246);
+    color:rgb(50, 50, 50);
 }
 
 .calcBotao{
     width: 50px;
     height: 106px;
     font-size: 25px;
+    font-weight: bold;
     cursor: pointer;
     margin: 3px;
-    border: 2px solid black;
+    background-color: transparent;
+    border: 2px solid;
     border-radius: 5px;
-    color: white; 
-    background-color: rgb(44, 229, 3);
-}
-
-.calcBotao:hover{
-    background-color: rgb(77, 180, 56);
+    color: rgb(246, 246, 246);
 }
 
 #resultado{
-    width: 207px;
-    border: 10px solid rgb(147, 37, 0);
-    background-color: rgb(77, 149, 29);
-    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid rgb(246, 246, 246);
     font-weight: bold;
     height: 30px;
     margin: 5px;
     font-size: 25px;
-    color: black;
+    color: rgb(246, 246, 246);
     text-align: right;
     padding: 5px;
     border-radius: 5px;
